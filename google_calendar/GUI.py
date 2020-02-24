@@ -112,8 +112,11 @@ root = Tk()
 
 root.title("Calendar administrator")
 
+format_label = Label(root, text="Time format example: 18:00-20:00", width=30, pady=5)
+format_label.grid(row=0, column=0, columnspan=2)
+
 help_label = Label(root, width= 30, pady=5, text="Add available intervall!")
-help_label.grid(row=0, column=0, columnspan=4)
+help_label.grid(row=0, column=2, columnspan=2)
 
 busy_intervall_entry = Entry(root, width=17, state=DISABLED)
 busy_intervall_entry.insert(END, "Busy intervall")
