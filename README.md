@@ -1,2 +1,2 @@
 # Calendar
- A calendar which takes your busy intervalls and tell you when are you free
+ A calendar which takes your busy intervalls and tells you when are you free
